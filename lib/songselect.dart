@@ -14,6 +14,8 @@ class songselect extends StatelessWidget {
           icon: Icon(Icons.arrow_back, color: Colors.white),
           onPressed: () {
             // Acción para regresar
+            //En este caso se va navegar de vuelta a HomeScreen
+            Navigator.pop(context);
           },
         ),
       ),
